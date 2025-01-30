@@ -611,12 +611,21 @@ strong {
 	height: 120px;
 }
 
-.clients-image {
+/* .clients-image {
   display: block;
   max-width: 100px;
   margin: auto;
   transition: all ease 0.2s;
+} */
+
+
+.clients-image {
+  border-radius: 30%;  
+  width: 100%;       
+  height: auto;       
+  object-fit: cover;
 }
+
 
 .clients-image:hover {
   transform: scale(1.3);
